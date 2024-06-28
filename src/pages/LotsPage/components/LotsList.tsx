@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import LotCard from './LotCard';
 
 const lots = [{
@@ -54,7 +53,6 @@ const lots = [{
 }];
 
 const disributeImages = (images: any) => {
-  const imgsLength = images.length;
   const columns: any = {};
 
   const viewportWidth = window.innerWidth;
